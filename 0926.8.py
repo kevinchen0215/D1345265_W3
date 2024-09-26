@@ -1,0 +1,11 @@
+a=int(input("請輸入一個五位數:"))
+b=a%10
+c=a//10%10
+d=a//100%10
+e=a//1000%10
+f=a//10000
+print(f)
+print(e)
+print(d)
+print(c)
+print(b)
